@@ -8,9 +8,9 @@
     "pull": "git pull --ff-only",
     "install": null,
     "compile": "python -m compileall .",
-    "test": null,
+    "test": "python -m pytest",
     "build": null,
-    "launch": null
+    "launch": "python -m ai_buddy_test_app"
   },
   "policy": {
     "allow_delete": false,
