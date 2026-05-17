@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+logs/*.log
+logs/*_debug.md
+logs/*_last_run.json

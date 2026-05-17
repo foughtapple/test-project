@@ -1,0 +1,26 @@
+{
+  "project_name": "Test Project",
+  "repo_full_name": "foughtapple/test-project",
+  "local_path": "C:\\Users\\jayde\\Documents\\test-project",
+  "branch": "main",
+  "poll_seconds": 30,
+  "workflow": {
+    "pull": "git pull --ff-only",
+    "install": null,
+    "compile": "python -m compileall .",
+    "test": null,
+    "build": null,
+    "launch": null
+  },
+  "policy": {
+    "allow_delete": false,
+    "allow_force_push": false,
+    "allow_arbitrary_commands": false,
+    "continue_on_test_failure": true,
+    "launch_after_compile_success": true
+  },
+  "debug": {
+    "log_file": "logs/ai_code_buddy_debug.md",
+    "last_run_json": "logs/ai_code_buddy_last_run.json"
+  }
+}
